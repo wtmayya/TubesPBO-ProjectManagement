@@ -16,7 +16,7 @@ public class Proyek {
     private Date deadline;
     
     public void addProgrammer(Programmer p){
-        
+        p = new Programmer();
     }
     
     public void createTugas(String tugas){
