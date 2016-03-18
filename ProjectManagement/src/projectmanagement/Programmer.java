@@ -1,28 +1,38 @@
-package projectmanagement;
-
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+package tubespbo;
 
 /**
  *
- * @author Mayya
+ * @author Aliza Putri Utami S
  */
-public class Programmer extends Orang{
-    private String id;
+public class Programmer extends Orang {
+    private String ProId;
     
-    public Programmer(){
-        id = "";
+    public Programmer(String ProId){
+        this.ProId = ProId;
     }
     
-    public void setId(String id){
-        this.id = id;
+    /** 
+     * @return ProId
+     */
+    public String getProId(){
+        return ProId;
     }
     
-    public String getId(){
-        return id;
+    /**
+     * @param ProId the ProId to set
+     */
+    public void setProId(String ProId){
+        this.ProId = ProId;
     }
-     
+    
+    private static class ProId{
+        
+        public ProId(){
+        }
+    }
 }
