@@ -12,8 +12,13 @@ package projectmanagement;
  */
 public class Tugas {
     private Programmer pelaksana;
+    private String namaTugas;
     
     public void setPelaksana(Programmer p){
         this.pelaksana = p;
+    }
+    
+    public void setTugas (String namaTugas){
+        this.namaTugas = namaTugas;
     }
 }

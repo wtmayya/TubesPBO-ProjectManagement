@@ -1,5 +1,7 @@
 package projectmanagement;
 
+import java.util.Date;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -17,9 +19,11 @@ public class Proyek {
     
     public void addProgrammer(Programmer p){
         p = new Programmer();
+        //implementasi array??
     }
     
-    public void createTugas(String tugas){
-        
+    public void createTugas(Tugas tugas){
+        tugas = new Tugas();
+        //
     }
 }
