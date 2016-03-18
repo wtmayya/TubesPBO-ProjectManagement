@@ -24,5 +24,5 @@ public class Programmer extends Orang{
     public String getId(){
         return id;
     }
-    
+     
 }
