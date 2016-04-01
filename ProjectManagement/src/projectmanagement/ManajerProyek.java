@@ -21,4 +21,8 @@ public class ManajerProyek extends Orang{
     public void createProyek(Date deadline){
         
     }
+    
+    public Proyek[] getProyek(){
+        return proyek;
+}
 }
