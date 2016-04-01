@@ -12,7 +12,7 @@ package projectmanagement;
  */
 public class Tugas {
     private Programmer pelaksana;
-    private String namaTugas;
+    String namaTugas;
     
     public void setPelaksana(Programmer p){
         this.pelaksana = p;
